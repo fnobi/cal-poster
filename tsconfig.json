@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "module": "es2015",
+        "lib": ["dom", "es2015", "es5"],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/js/*"],
+            "axios": ["node_modules/axios/index.d.ts"]
+        }
+    }
+}
